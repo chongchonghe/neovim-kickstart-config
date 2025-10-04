@@ -28,6 +28,7 @@ require('lazy').setup {
   require 'plugins.indent-blankline',
   require 'plugins.misc',
   require 'plugins.comment',
+  require 'plugins.oscyank',
 }
 
 -- The line beneath this is called `modeline`. See `:help modeline`
