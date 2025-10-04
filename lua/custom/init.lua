@@ -12,3 +12,14 @@ end
 
 vim.keymap.set("n", "<leader>l", toggle_numbers, { noremap = true, silent = true, desc = "Toggle line numbers" })
 
+-- Enable line wrapping
+vim.opt.wrap = true
+
+-- Enable wrapping in diff mode
+vim.opt.diffopt:append("followwrap")
+
+-- Optional: Better wrapping behavior
+vim.opt.linebreak = true
+vim.opt.showbreak = "↪ "
+vim.opt.breakindent = true
+
